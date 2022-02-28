@@ -8,28 +8,51 @@ namespace Ameritech_Clear
 {
     public static class CSVManipulation
     {
-        public static List<long> SplitAndAdd(List<string> lines, List<long> rawTotal)
-        {
+        public static long SplitAndAdd(List<string> lines)
+        {            
+            long returnVar = 0;
+            int intVar = 0;
+            long longVar = 0;
+           
             for (int i = 0; i < lines.Count; i++) //iterates through the list and seperates the data, and stores them.
             {
-                List<long> nums = lines[i].Split(',').Select(x => long.Parse(x)).ToList();
-                rawTotal.Add(nums.Sum());
+
+                String[] Cells = lines[i].Split(',');
+
+                for (int z = 0; z < Cells.Length; z++)
+                {
+                    if (int.TryParse(Cells[z], out intVar))
+                    {
+                        returnVar = intVar + returnVar;
+                        
+                    }
+                    else if (long.TryParse(Cells[z], out longVar))
+                    {
+                        returnVar = longVar + returnVar;
+                    }                   
+                }                
             }
-            return rawTotal;
+            return returnVar;            
         }
 
-        public static string TenTrimmer(char[] x)
+        public static string TenTrimmer(long total) //trims down the number to the last ten digits. 
         {
-            var tool = new List<char>();
-
-            for (int i = x.Length - 10; i < x.Length; i++)
+            if(total.ToString().ToArray().Length >= 10)
             {
-                tool.Add(x[i]);
+                var @throw = total.ToString().ToCharArray();
+                var @catch = new List<char>();
+                for (int i = @throw.Length - 10; i < @throw.Length; i++)
+                {
+                    @catch.Add(@throw[i]);
+                }
+                var str = new string(@catch.ToArray());
+                return str;
             }
-
-            string finalTotal = new string(tool.ToArray());
-
-            return finalTotal;
+            else
+            {
+                return total.ToString();
+            }
+           
         }
 
 

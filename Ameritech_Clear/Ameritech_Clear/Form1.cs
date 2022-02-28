@@ -32,26 +32,12 @@ namespace Ameritech_Clear
                 richTextBox.Text = fileText;
 
                 var lines = File.ReadLines(file).ToList(); //Gets the CSV data in a variable that I can work with.
+                                
+                long grandTotal = CSVManipulation.SplitAndAdd(lines); //iterates through the list.
+                              
+                txtBox.Text = $"{CSVManipulation.TenTrimmer(grandTotal)}"; //Display result to the user.
 
-                List<long> rawTotal = new List<long>();
-                rawTotal = CSVManipulation.SplitAndAdd(lines, rawTotal); //iterates through the list and seperates the data, and stores them.
-
-                var newTotal = rawTotal.Sum().ToString().ToArray();
-
-                if (newTotal.Length >= 10)
-                {
-                    string finalTotal = CSVManipulation.TenTrimmer(newTotal);
-
-                    txtBox.Text = $"{finalTotal}";
-                    Console.WriteLine(finalTotal);
-                }
-
-                else
-                {
-                    txtBox.Text = $"{rawTotal.Sum()}";
-                    Console.WriteLine(rawTotal.Sum());
-                }
-
+                Console.WriteLine($"{CSVManipulation.TenTrimmer(grandTotal)}");//Display the result to the console.s            
             }
         }
     }
