@@ -57,7 +57,7 @@
             this.txtBox.Name = "txtBox";
             this.txtBox.Size = new System.Drawing.Size(656, 26);
             this.txtBox.TabIndex = 2;
-            this.txtBox.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
+            //this.txtBox.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // richTextBox
             // 

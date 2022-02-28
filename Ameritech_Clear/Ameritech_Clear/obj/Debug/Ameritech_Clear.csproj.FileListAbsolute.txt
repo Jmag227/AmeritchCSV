@@ -3,7 +3,6 @@ C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\A
 C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\bin\Debug\Ameritech_Clear.pdb
 C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\obj\Debug\Ameritech_Clear.csproj.AssemblyReference.cache
 C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\obj\Debug\Ameritech_Clear.csproj.SuggestedBindingRedirects.cache
-C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\obj\Debug\Ameritech_Clear.Form1.resources
 C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\obj\Debug\Ameritech_Clear.Properties.Resources.resources
 C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\obj\Debug\Ameritech_Clear.csproj.GenerateResource.cache
 C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\obj\Debug\Ameritech_Clear.csproj.CoreCompileInputs.cache
@@ -38,3 +37,4 @@ C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\A
 C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\obj\Debug\Ameritech_Clear.csproj.CopyComplete
+C:\Users\jarom\OneDrive\Desktop\DeskRepo\JobProjects\CSVWinApp\Ameritech_Clear\Ameritech_Clear\obj\Debug\Ameritech_Clear.Form1.resources
